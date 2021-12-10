@@ -1,6 +1,10 @@
 <?php
-// hello 
-router script for the built in php web
+
+*router script for the built in php web server
+
+*// hello 
+*router script for the built in php web
+
 
 /**
  * @file
