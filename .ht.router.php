@@ -32,10 +32,10 @@ if (file_exists(__DIR__ . $url['path'])) {
 }
 
 // Work around the PHP bug.
-$path = $url['path'];
+$path = $url['path'];// this line is not coorect malika check this line update anup sir
 $script = 'index.php';
 if (strpos($path, '.php') !== FALSE) {
-  // Work backwards through the path to check if a script exists. Otherwise
+  // Work backwards through the path to check if a script exists. Otherwise//////
   // fallback to index.php.
   do {
     $path = dirname($path);
